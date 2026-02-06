@@ -1,7 +1,7 @@
 import { HeaderMobile } from "./HeaderMobile";
 
 
-export function Header() {
+export const Header = () => {
 
   return (
     <>
@@ -12,8 +12,9 @@ export function Header() {
         <div>Fellipe Santos</div>
 
         {/* dropdawn menu */}
-
         <HeaderMobile/>
+
+
         
         
       </div>

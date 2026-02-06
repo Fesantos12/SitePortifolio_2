@@ -6,13 +6,22 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { Button } from '@headlessui/react'
-import { Menu as MenuHamburguer } from 'lucide-react';
+import { TextAlignEnd } from 'lucide-react';
+
+const App = () => {
+  return (
+    <TextAlignEnd />
+  );
+};
+
+export default App;
+
 
 export const HeaderMobile = () => {
   return (
     <div className="md:hidden">
           <Sheet>
-            <SheetTrigger className="cursor-pointer"><MenuHamburguer/></SheetTrigger>
+            <SheetTrigger className="cursor-pointer"><TextAlignEnd/></SheetTrigger>
             <SheetContent className="bg-gray-200">
               <SheetHeader>
                 <SheetTitle>Menu</SheetTitle>
