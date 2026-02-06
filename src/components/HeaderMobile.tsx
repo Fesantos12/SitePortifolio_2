@@ -32,7 +32,9 @@ export const HeaderMobile = () => {
                     <SheetClose asChild>
                       <a href="#about">About</a>
                     </SheetClose>
-                    <a href="#">Experience</a>
+                    <SheetClose asChild>
+                      <a href="#experience">Experience</a>
+                    </SheetClose>
                     <a href="#">Projects</a>
                     <a href="#">Contact</a>
                   </div>
