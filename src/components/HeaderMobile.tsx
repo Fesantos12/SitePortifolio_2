@@ -4,9 +4,11 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
+  SheetClose
 } from "@/components/ui/sheet"
 import { Button } from '@headlessui/react'
 import { TextAlignEnd } from 'lucide-react';
+
 
 const App = () => {
   return (
@@ -22,12 +24,14 @@ export const HeaderMobile = () => {
     <div className="md:hidden">
           <Sheet>
             <SheetTrigger className="cursor-pointer"><TextAlignEnd/></SheetTrigger>
-            <SheetContent className="bg-gray-200">
+            <SheetContent className="bg-gray-200" onCloseAutoFocus={(event) => {event.preventDefault()}}>
               <SheetHeader>
                 <SheetTitle>Menu</SheetTitle>
                 <div className="w-full flex flex-col items-center gap-16 mt-20">
                   <div className="flex flex-col gap-4 items-center">
-                    <a href="#">About</a>
+                    <SheetClose asChild>
+                      <a href="#about">About</a>
+                    </SheetClose>
                     <a href="#">Experience</a>
                     <a href="#">Projects</a>
                     <a href="#">Contact</a>

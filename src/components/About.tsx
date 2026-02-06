@@ -4,7 +4,7 @@ import { BlurFade } from "@/components/ui/blur-fade"
 export const About = () => {
     return (
         <>
-            <div className="w-full h-screen px-6.5 py-9 bg-gray-300 flex flex-col items-center justify-around">
+            <div id="about" className="w-full h-screen px-6.5 py-9 bg-gray-300 flex flex-col items-center justify-around">
                 <BlurFade delay={0.25} inView className="w-full flex items-center justify-center gap-2">
                     <div className="w-23.25 h-0.5 bg-black"></div>
                     <div className="font-normal text-3xl">About Me</div>
