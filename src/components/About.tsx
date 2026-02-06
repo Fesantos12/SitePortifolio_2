@@ -1,15 +1,12 @@
 import Img from "@/assets/eu ia.jpeg";
 import { BlurFade } from "@/components/ui/blur-fade"
+import { ReusableTitle } from "./Reusableitle";
 
 export const About = () => {
     return (
         <>
             <div id="about" className="w-full h-screen px-6.5 py-9 bg-gray-300 flex flex-col items-center justify-around">
-                <BlurFade delay={0.25} inView className="w-full flex items-center justify-center gap-2">
-                    <div className="w-23.25 h-0.5 bg-black"></div>
-                    <div className="font-normal text-3xl">About Me</div>
-                    <div className="w-23.25 h-0.5 bg-black"></div>
-                </BlurFade>
+                <ReusableTitle text="About Me"/>
                 <BlurFade delay={0.25} inView>
                     My name is Fellipe, I'm 24 years old, I've been studying programming for almost 6 years and I'm 
                     constantly seeking improvement in the field. <br/><br/>
