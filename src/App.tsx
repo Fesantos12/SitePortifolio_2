@@ -2,6 +2,7 @@ import { About } from "./components/About";
 import { Experience } from "./components/Experience";
 import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection";
+import { Projects } from "./components/Projects";
 
 export function App() {
 
@@ -11,6 +12,7 @@ export function App() {
       <HeroSection />
       <About/>
       <Experience/>
+      <Projects/>
     </>
   )
 }
