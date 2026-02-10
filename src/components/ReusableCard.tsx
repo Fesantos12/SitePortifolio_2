@@ -14,9 +14,9 @@ export const ReusableCard = ({
   img,
 }: ReusableCardProps) => {
   return (
-    <div className="w-full flex items-start gap-4">
+    <div className="w-full flex items-start gap-4 md:justify-center">
       <div className="mt-2">
-        <div className="w-20 h-15 bg-gray-400 rounded-md">
+        <div className="w-20 h-15 bg-gray-400 rounded-md md:w-23.75 md:h-20">
           <img src={img} className="w-full h-full rounded-md"></img>
         </div>
       </div>
