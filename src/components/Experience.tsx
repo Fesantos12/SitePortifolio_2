@@ -1,5 +1,6 @@
 import { ReusableTitle } from "./Reusableitle";
 import { BlurFade } from "@/components/ui/blur-fade";
+import SistemaMatchPoint from "../assets/ProjetoSistemaMatchPoint.png";
 
 export const Experience = () => {
   return (
@@ -10,6 +11,13 @@ export const Experience = () => {
       <ReusableTitle text="Experience" />
 
       <BlurFade className="w-full flex flex-col items-start">
+        <div className="w-full h-60 bg-gray-400 mb-20 rounded-2xl">
+          <img
+            src={SistemaMatchPoint}
+            alt="Sistema MatchPoint"
+            className="w-full h-full rounded-2xl"
+          />
+        </div>
         <div>
           <div className="font-normal text-[20px]">
             Sistema de Cadastro de Alunos
