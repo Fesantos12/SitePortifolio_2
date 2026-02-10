@@ -9,7 +9,10 @@ import SistemaMatchPoint from "../assets/ProjetoSistemaMatchPoint.png";
 
 export const Projects = () => {
   return (
-    <div className="w-full h-screen px-6.5 py-9 flex flex-col items-center justify-between bg-gray-300 md:py-30 md:px-63.75 md:gap-12.5">
+    <div
+      id="Projects"
+      className="w-full h-screen px-6.5 py-9 flex flex-col items-center justify-between bg-gray-300 md:py-30 md:px-63.75 md:gap-12.5"
+    >
       <ReusableTitle text="Projects" />
       <BlurFade className="w-full flex flex-col items-center md:flex-row md:gap-5">
         <div className="w-full h-56 bg-gray-400 rounded-2xl md:w-150 md:h-70">

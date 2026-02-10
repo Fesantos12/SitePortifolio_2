@@ -10,10 +10,10 @@ export const Header = () => {
         <HeaderMobile />
 
         <div className="flex items-center gap-5 max-md:hidden">
-          <a href="#">About</a>
-          <a href="#">Experience</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+          <a href="#About">About</a>
+          <a href="#Experience">Experience</a>
+          <a href="#Projects">Projects</a>
+          <a href="#Contact">Contact</a>
         </div>
 
         <div className="flex items-center gap-5 max-md:hidden">

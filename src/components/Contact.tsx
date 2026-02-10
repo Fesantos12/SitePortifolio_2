@@ -3,7 +3,10 @@ import { Github, Linkedin } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <div className="w-full flex flex-col items-center px-6.5 pt-9 pb-5 gap-10">
+    <div
+      id="Contact"
+      className="w-full flex flex-col items-center px-6.5 pt-9 pb-5 gap-10 md:py-30 md:px-63.75 md:gap-20"
+    >
       <ReusableTitle text="Contact" />
       <div className="w-full flex flex-col gap-15 items-center">
         <div className="w-full flex flex-col gap-7.5 items-center">

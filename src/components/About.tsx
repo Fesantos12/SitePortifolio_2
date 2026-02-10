@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <>
       <div
-        id="about"
+        id="About"
         className="w-full h-screen px-6.5 py-9 bg-gray-300 flex flex-col items-center justify-around md:py-30 md:px-63.75 md:gap-12.5"
       >
         <ReusableTitle text="About Me" />
